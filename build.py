@@ -9,4 +9,6 @@ def solution(list):
             break
     return isPallidrome
 
+print 'abc'[::-1]
+
 print solution('abccba')
