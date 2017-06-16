@@ -1,5 +1,2 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
-    return value
+    return (list==list[len(list)::-1])
