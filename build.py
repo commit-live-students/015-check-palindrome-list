@@ -1,5 +1,6 @@
-def solution(list):
-    '''
-    Enter your code here
-    '''
-    return value
+def solution(l):
+    y = l[::-1]
+    if y == l:
+        return True
+    else:
+        return False
