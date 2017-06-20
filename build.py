@@ -1,5 +1,7 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
+    if list == list[::-1]:
+        return True
+    else:
+        return False
+
     return value
