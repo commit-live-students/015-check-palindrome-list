@@ -1,5 +1,8 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
+    palindrome = list[::-1]
+    value = None
+    if palindrome == list:
+        value = True
+    else:
+        value = False
     return value
