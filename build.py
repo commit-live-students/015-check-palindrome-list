@@ -1,5 +1,2 @@
-def solution(list):
-    '''
-    Enter your code here
-    '''
-    return value
+def solution(arg_list):
+    return arg_list == arg_list[::-1]
