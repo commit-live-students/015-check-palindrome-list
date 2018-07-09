@@ -1,5 +1,4 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
+    revlist = list[::-1]
+    value = list == revlist
     return value
