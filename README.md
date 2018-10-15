@@ -6,7 +6,7 @@
 * If yes then list is palindrome and return true, else false.
 
 **Instructions:**
-* Program should be written in file biuld.py
+* Program should be written in file build.py
 * Function name should be solution.
 * Input 
       
