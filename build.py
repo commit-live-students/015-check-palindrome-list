@@ -1,5 +1,2 @@
-def solution(list):
-    '''
-    Enter your code here
-    '''
-    return value
+def solution(list1):
+    return list1 == list1[::-1]
