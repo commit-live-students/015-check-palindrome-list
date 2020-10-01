@@ -4,3 +4,4 @@ def solution(list):
     
     return value
 list=['m','a','d','a','m']
+solution(list)
