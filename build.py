@@ -1,5 +1,7 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
+    
+    value= list
+    
     return value
+list=['m','a','d','a','m']
+solution(list)
