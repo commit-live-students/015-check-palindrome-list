@@ -7,13 +7,12 @@ def solution(list):
     
     # iterating till the range 
     for i in range(0, n): 
-        ele = input()
+        ele = int(input())
     
         lst.append(ele) # adding the element
 
     out_list = lst[::-1] #reversing a list
     m=0
-    #check if palindrome
     for i in range(0,n):
         if lst[i]==out_list[i]:
             m=m+1
@@ -24,5 +23,8 @@ def solution(list):
         print("TRUE")
             
 
- solution(list)
+            
+    
+
+solution(list)
         
