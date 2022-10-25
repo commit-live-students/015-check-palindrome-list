@@ -1,5 +1,6 @@
 def solution(list):
-    '''
-    Enter your code here
-    '''
+    value = False
+    lst = "".join(list)
+    if lst == lst[::-1]:
+        value = True
     return value
